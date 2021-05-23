@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ML API</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet">
+</head>
+
+<body style="background-image: url('https://kleimanlab.org/wp-content/uploads/2018/06/beautiful-color-gradients-backgrounds-028-plum-plate.png'); background-size: 100% ">
+    <div class="login">
+        <br />
+        <br />
+        <h1 style="font-family:sans-serif;color:white" class="center">Question BERT</h1>
+        <p style="font-family:sans-serif;color:white" class="center">Input a Context Paragraph and a Question, and BERT will give an answer</p>
+
+        <form action="/predict" method="post">
+            <textarea class="paratext" name="paragraph" placeholder="Enter Paragraph Here..." id='para' required="required"></textarea>
+            <textarea class="questtext" name="question" placeholder="Enter Question Here..." id='quest' required="required"></textarea>
+            <button type="button" class="subbutton" id="predict-button">Predict</button>
+        </form>
+
+        <br>
+        <br>
+        <h2 style="font-family:sans-serif;color:white" class="center" id="result-text"></h2>
+    </div>
+
+
+</body>
+</html>
