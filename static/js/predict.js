@@ -13,12 +13,12 @@ document.getElementById("predict-button").addEventListener("click", function() {
        });
        const myJson = await response.json();
             return myJson.result;
-       }
+   }
 
    let predtext = getPrediction(question.value, paragraph.value);
        predtext.then(function (response) {
             result.textContent = response;
-    });
+   });
 
 
 }, false);
