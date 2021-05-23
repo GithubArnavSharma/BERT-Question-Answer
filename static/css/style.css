@@ -1,0 +1,41 @@
+.subbutton {
+    width: 150px;
+    height: 50px;
+    background-color: #FA8072;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 8px auto;
+    cursor: pointer;
+}
+
+.paratext {
+    height: 150px;
+    width: 250px;
+    display: block;
+    border: 2px solid #ccc;
+    margin: 0px auto;
+    font-size: 14px;
+    margin-left: 500px;
+    float: left;
+    font-family: Arial;
+}
+
+.questtext {
+    height: 150px;
+    width: 250px;
+    display: block;
+    border: 2px solid #ccc;
+    margin: 0px auto;
+    font-size: 14px;
+    margin-left: 800px;
+    margin-bottom: 40px;
+    font-family: Arial;
+}
+
+.center {
+    text-align: center
+}
