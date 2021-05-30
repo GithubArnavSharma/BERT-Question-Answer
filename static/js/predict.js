@@ -17,7 +17,7 @@ document.getElementById("predict-button").addEventListener("click", function() {
 
    let predtext = getPrediction(question.value, paragraph.value);
    predtext.then(function (response) {
-       result.textContent = response;
+        result.textContent = response;
    });
 
 
